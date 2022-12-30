@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="box">
+        <p id="navbar">Student Portal</p>
+    </nav>
+
+    <div id="bar">
+        <input type="text" id="searchInput" placeholder="Search" />
+        <button id="searchBtn" onclick="searchTablea()">Search</button>
+    </div>
+
+
+    <div id="container">
+        <button id="sortAZ" class="flexBtn" onclick="sortAZa()">Sort A->Z</button>
+        <button id="sortZA" class="flexBtn" onclick="sortZAa()">Sort Z->A</button>
+        <button id="sortMarks" class="flexBtn" onclick="sortMarksa()">Sort By Marks</button>
+        <button id="sortPassing" class="flexBtn" onclick="sortPassinga()">Sort By Passing</button>
+        <button id="sortClass" class="flexBtn" onclick="sortClassa()">Sort By Class</button>
+        <button id="sortGender" class="flexBtn" onclick="sortGendera()">Sort By Gender</button>
+    </div>
+
+
+    <table id="table" border="1px">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+    </table>
+
+</body>
+
+<script src="script.js" type="module"></script>
+</body>
+
+</html>

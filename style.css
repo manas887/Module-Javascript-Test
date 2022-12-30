@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#box {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    width: 100vw;
+    padding: 16px;
+}
+
+#navbar {
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+#bar {
+    margin: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchInput {
+    width: 79%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+}
+
+#searchBtn {
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 18px;
+}
+
+.flexBtn {
+    width: 16%;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    padding: 13px 25px;
+    margin: 8px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 98%;
+}
+
+th,
+td {
+    text-align: left;
+    /* align-content: center; */
+    padding: 8px;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#table {
+    margin: 0px 15px;
+    /* border: 1px; */
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
